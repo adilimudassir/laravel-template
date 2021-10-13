@@ -6,8 +6,8 @@
 
 // Theme colors
 // Primary
-$primary:       									if(isDarkMode(), #fc1f3d, #f10222);
-$primary-active:    								if(isDarkMode(), #c0031c, #c0031c);
+$primary:       									if(isDarkMode(), #1a30f7d2, #1a30f7d2);
+$primary-active:    								if(isDarkMode(), #0019f6d2, #0019f6d2);
 $primary-light:    								    if(isDarkMode(), #212E48, #F1FAFF);
 $primary-inverse:  									#FFFFFF;
 
@@ -34,6 +34,3 @@ $warning:       									if(isDarkMode(), #FFA800, #FFC700);
 $warning-active:    								if(isDarkMode(), #EE9D01, #F1BC00);
 $warning-light:    									if(isDarkMode(), #392F28, #FFF8DD);
 $warning-inverse:  									#FFFFFF;
-
-$input-focus-border-color: #F64E60 !default;
-$input-focus-color: #F64E60 !default;
