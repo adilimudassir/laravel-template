@@ -4,7 +4,7 @@
 				    <div class="aside-logo flex-column-auto" id="kt_aside_logo">
 				        <!--begin::Logo-->
 				        <a href="{{ route('dashboard') }}">
-				            <img alt="Logo" src="{{ asset('assets/media/logos/logo.png')}}" class="h-40px logo" />
+				            <img alt="Logo" src="{{ asset('assets/media/logos/logo-12.svg')}}" class="h-40px logo" />
 				        </a>
 				        <!--end::Logo-->
 				        <!--begin::Aside toggler-->
@@ -23,7 +23,7 @@
 				    <!--end::Brand-->
 				    <!--begin::Aside menu-->
 				    <div class="aside-menu flex-column-fluid">
-				        <x-partials.menu />
+				        @include('partials.menu')
 				    </div>
 				    <!--end::Aside menu-->
 				    <!--begin::Footer-->
